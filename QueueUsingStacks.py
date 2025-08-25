@@ -1,3 +1,10 @@
+#Time Complexity: Amortized - O(1)
+
+#Space Complexity:O(n)
+
+"""Implements a queue using two stacks: one for input, one for output.
+Elements are reversed from inSt to outSt only when needed.
+"""
 class MyQueue:
 
     def __init__(self):
